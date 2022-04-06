@@ -20,7 +20,7 @@ public class PatikaKullaniciGirisi {
         if (userName.equals("patika") && paswoord.equals("java123")){
             System.out.println("Giriş Yapıldı ");
 
-        }else if (userName.equals("patika") && !paswoord.equals("java123")){
+        }else if (userName.equals("patika") && ! paswoord.equals("java123")){
             System.out.println("Şifreniz Hatalı !!");
             System.out.println("Şifrenizi sıfırlamak ister misiniz ?\n1-Evet\n2-Hayır");
             select = input.nextInt();
