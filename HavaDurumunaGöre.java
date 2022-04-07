@@ -18,10 +18,10 @@ public class HavaDurumunaGöre {
         if (heat<5){
             System.out.println("Go skiing. ");
         }
-        if (heat>5 && heat<15){
+        else if (heat>5 && heat<15){
             System.out.println("Go to cinema. ");
         }
-        if (heat>10 && heat<25){
+        else if (heat>10 && heat<25){
             System.out.println("Go to picnic. ");
         }
         if (heat>=25){
