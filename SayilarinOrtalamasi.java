@@ -4,6 +4,20 @@ import java.util.Scanner;
 
 public class SayilarinOrtalamasi {
     public static void main(String[] args) {
+        /*int i;
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println("Sayı Giriniz: ");
+        i = inp.nextInt();
+
+        for (int k = 0; k < i; k++){
+            if (k % 2 == 0){
+                if (k != i-2);{
+                    System.out.println(k);
+                }
+            }
+        }*/
+        
         int k, total=0, count=0;
 
         Scanner inp = new Scanner(System.in);
