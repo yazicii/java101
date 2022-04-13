@@ -29,13 +29,13 @@ public class BurcProgrami<horoscope> {
         System.out.print("The day you were born : ");
         day = input.nextInt();
 
-        if (month > 12) {
+        if (month > 12 || month <= 0) {
             System.out.println("Hatalı giriş yaptınız !!");
         }
         if (month == 1) {
             if (day < 22) {
                 System.out.println("Burcunuz : oğlak ");
-            } else if ((day > 22) && (day <= 32)) {
+            } else if ((day > 22) && (day < 32)) {
                 System.out.println("Burcunuz : kova ");
             } else {
                 System.out.println("Hatalı giriş yaptınız !! Tekrar Deneyiniz !");
@@ -43,7 +43,7 @@ public class BurcProgrami<horoscope> {
         } else if ((month == 2)) {
             if (day < 20) {
                 System.out.println("Burcunuz : kova ");
-            } else if ((day > 19) && (day >= 29)) {
+            } else if ((day > 19) && (day > 29)) {
                 System.out.println("Burcunuz : balık ");
             } else {
                 System.out.println("Hatalı giriş yaptınız !! Tekrar Deneyiniz !");
@@ -125,6 +125,8 @@ public class BurcProgrami<horoscope> {
                 System.out.println("Burcunuz : yay ");
             } else if ((day > 21) && (day < 32)) {
                 System.out.println("Burcunuz : oğlak ");
+            } else {
+                System.out.println("Hatalı giriş yaptınız !! Tekrar Deneyiniz !");
             }
         }
     }
