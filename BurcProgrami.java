@@ -43,7 +43,7 @@ public class BurcProgrami<horoscope> {
         } else if ((month == 2)) {
             if (day < 20) {
                 System.out.println("Burcunuz : kova ");
-            } else if ((day > 19) && (day > 29)) {
+            } else if ((day > 19) && (day < 29)) {
                 System.out.println("Burcunuz : balık ");
             } else {
                 System.out.println("Hatalı giriş yaptınız !! Tekrar Deneyiniz !");
