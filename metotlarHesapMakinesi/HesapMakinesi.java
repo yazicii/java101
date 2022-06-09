@@ -26,7 +26,7 @@ public class HesapMakinesi {
             System.out.println("İkinci sayı 0'dan büyük olmalıdır.");
             return 0;
         }
-        int result = a / b;
+        double result = a / b;
         System.out.println("Bölme = " + result);
         return result;
     }
