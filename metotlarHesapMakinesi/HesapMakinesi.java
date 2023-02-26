@@ -21,7 +21,7 @@ public class HesapMakinesi {
         return result;
     }
 
-    static int divided(int a, int b) {
+    static double divided(int a, int b) {
         if (b == 0) {
             System.out.println("İkinci sayı 0'dan büyük olmalıdır.");
             return 0;
